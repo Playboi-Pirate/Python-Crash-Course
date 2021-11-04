@@ -109,7 +109,7 @@ print(2**3)
 print("Question 2-9")
 My_Fav_Num=(2+3)*5/5+12-10
 print(My_Fav_Num)
-
+ 
 
 
 
