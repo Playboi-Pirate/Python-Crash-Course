@@ -43,3 +43,44 @@ print(Speedy)
 print(Off_Road)
 print(Luxury)
 print(Drifting)
+#Modifying Elements in a list
+print("Modifying Elements in a list")
+motorcycles=['honda', 'yamaha','suzuki']
+print(motorcycles)
+motorcycles[0]='ducati'# I just switched 'honda' with 'ducati'
+print(motorcycles)
+#Adding Elements to a list
+print("Adding Elements to a list")
+motorcycles=['honda','yamaha','suzuki']
+print(motorcycles)
+motorcycles.append('ducati')#append adds 'ducati' at the end of the list
+print(motorcycles)
+motorcycles=[]
+motorcycles.append('honda')
+motorcycles.append('yamaha')
+motorcycles.append('suzuki')
+print(motorcycles)
+#Inserting Elements into a List
+print('Inserting Elements into a List')
+motorcycles=['honda','yamaha','suzuki']
+motorcycles.insert(0,'ducati')# I used insert to put ducati at a specific position is the list
+print(motorcycles)
+#Removing Elements from a List
+print("Removing Elements from a list")
+print('Removing Items from a list using the del statement')
+motorcycles=['honda', 'yamaha','suzuki']
+print(motorcycles)
+del motorcycles[0]
+print(motorcycles)
+motorcycles=['honda', 'yamaha','suzuki']
+del motorcycles[1]
+print(motorcycles)
+print('Removing Items from a list using the pop command')
+
+x={1,2,9,3,4,5,6}
+y={7,3,4,5}
+print(x|y)
+
+
+
+
