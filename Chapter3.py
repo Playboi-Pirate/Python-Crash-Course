@@ -76,10 +76,28 @@ motorcycles=['honda', 'yamaha','suzuki']
 del motorcycles[1]
 print(motorcycles)
 print('Removing Items from a list using the pop command')
+# The pop is useful for keeping the value of an item after it has been removed
+motorcycles=['honda','yamaha','suzuki']
+print(motorcycles)
+popped_motorcycles=motorcycles.pop()
+print(motorcycles)
+print(popped_motorcycles)
+motorcycles=['honda', 'yamaha','suzuki']
+last_owned=motorcycles.pop()
+print(f"{last_owned.title()} was the motorcycle I loved the least.")
+motorcycles=['honda', 'yamaha','suzuki']
+print(motorcycles)
+first_owned=motorcycles.pop(0)
+print(f"The first motorcycle I owned was a {first_owned.title()} Accord")
+#Removing an Item by Value
+print("Removing an Item by Value")
+motorcycles=['honda', 'yamaha','suzuki', 'ducati']
+print(motorcycles)
+motorcycles.remove('ducati')
+print(motorcycles)
 
-x={1,2,9,3,4,5,6}
-y={7,3,4,5}
-print(x|y)
+
+
 
 
 
