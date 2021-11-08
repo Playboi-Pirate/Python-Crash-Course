@@ -95,6 +95,30 @@ motorcycles=['honda', 'yamaha','suzuki', 'ducati']
 print(motorcycles)
 motorcycles.remove('ducati')
 print(motorcycles)
+motorcycles=['honda', 'yamaha','suzuki','ducati']
+print(motorcycles)
+too_expensive='ducati'
+motorcycles.remove(too_expensive)
+print(motorcycles)
+print(f"\n A {too_expensive} is too expensive for me.")
+#Try it Yourself
+print("Try it Yourself Section")
+#3-4 Guest List
+print("3-4 Guest List Section")
+Fav_People=['Jack Sparrow','Monkey.D Luffy','Theodore Rosevelt']
+print(f"\nI love you calmness and chill nature as a pirate,{Fav_People[0]}. I would love if you can join my dinner party.")
+print(f"\nYou are my favorite most favorite pirate, {Fav_People[1]}. I grew up watching you.I would love if you can come to my dinner party")
+print(f"\n{Fav_People[2]} you are the only real person I admire, honestly. You want to come to my dinner party? ")
+#3-5. Changing Guest List
+print("3-5. Changing Guest List")
+print(f"Sadly {Fav_People[2]} could not make it. Aww Bummer. So I am inviting someone else.")
+Fav_People[2]='Roronoa Zoro'
+print(Fav_People)
+print(f"\n{Fav_People[0]}, I am just making sure if you are still coming, yes?")
+print(f"\n{Fav_People[1]}, I just invited your right hand man,co-captain, Zoro. I can't wait to see you both!")
+print(f"\n{Fav_People[2]}, I can't wait to see you and Luffy at the dinner party!! This is going to be awesome!")
+#3-6.More Guests
+print("3-6.More Guests")
 
 
 
