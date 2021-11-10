@@ -119,6 +119,66 @@ print(f"\n{Fav_People[1]}, I just invited your right hand man,co-captain, Zoro. 
 print(f"\n{Fav_People[2]}, I can't wait to see you and Luffy at the dinner party!! This is going to be awesome!")
 #3-6.More Guests
 print("3-6.More Guests")
+Fav_People.insert(0,'Shanks')
+Fav_People.insert(2,'Sabo')
+Fav_People.append('Jonathan')
+print(Fav_People)
+print(f"\n{Fav_People[0]} I can't wait for you to come to my dinner party")
+print(f"\n{Fav_People[1]} I just got a bigger table on the way, I invited more guests!")
+print(f"\n{Fav_People[2]} I can't wait for you to come to my dinner party, your brother,Luffy is going to be there.")
+print(f"\n{Fav_People[3]} I just invited your brother,Sabo. I also invited Shanks as well!")
+print(f"\n{Fav_People[4]} You still coming? You might get to duel shanks to test your might as the best swords man!")
+print(f"\n{Fav_People[5]} Why I invited you to the most exciting dinner party ever? I don't man. Come if you want too.")
+print(f"{Fav_People} I got a new table with more seats! I am inviting more people!")
+#3-7.Shrinking Guest List
+print("3-7.Shrinking Guest List")
+print("I can only invite 2 people from my guest list because my table has been delayed :(")
+print(Fav_People)
+Sorry_Jack=Fav_People.pop(1)
+print(f"\n{Sorry_Jack.title()} Sorry I can't invite you to my dinner party")
+print(Fav_People)
+Sorry_Sabo=Fav_People.pop(1)
+print(f"\n{Sorry_Sabo}, I am sorry that you won't be seeing your brother.")
+print(Fav_People)
+Not_Sorry=Fav_People.pop(3)
+print(f"\n {Not_Sorry} I never cared if you came or not. I just ran out of people to invite. If you came you probably ruin the party anyway")
+print(Fav_People)
+Sorry_Zoro=Fav_People.pop(2)
+print(f"\n {Sorry_Zoro} I really wanted you to come, but I can only invite 2 now")
+print(Fav_People)
+print(f"\n{Fav_People[0]} and {Fav_People[1]} you guys are still invited!!")
+del Fav_People[0]
+del Fav_People[0]
+print(Fav_People)
+#Organizing List
+print("Organizing Lists")
+#Sorting a list permanently with the Sort() Method
+print('Sorting a list permanently with the Sort() Method')
+cars=['bmw','audi','toyota','subaru']
+cars.sort()#Changes the list in aphabetical order permanently
+print(cars)
+cars=['bmw','audi','toyota','subaru']
+cars.sort(reverse=True)#Reverse Alphabetical Order permanently
+print(cars)
+#Sorting a List temporarily with the sorted() function
+print('Sorting a list temporarily with the sorted() function')
+cars=['bmw','audi','toyota','subaru']
+print(f'{cars}- This is the original list')
+print(f'{(sorted(cars))} - This is the sorted list')
+print(f'{cars}- This is the original list again!')
+#Printing a list in reverse order
+print('printing in reverse order')
+cars=['bmw','audi','toyota','subaru']
+print(cars)
+cars.reverse()
+print(cars)
+cars.reverse()# I can change it back to its original order if I use reverse again
+print(cars)
+#Finding the Length of a list
+print('Finding the Length of a list')
+cars=['bmw','audi','toyota','subaru']
+Length_List=len(cars)
+print(Length_List)
 
 
 
